@@ -1,0 +1,154 @@
+@media screen and (max-width: 1750px) {
+    .contacts {
+        flex-flow: column nowrap;
+    }
+
+    .contacts__title {
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .contacts__items {
+        justify-content: space-around;
+    }
+
+    .plans__name {
+        text-align: center;
+    }
+
+    .features__item {
+        flex-flow: column nowrap;
+    }
+
+    .features__img {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .features__description, .features__name {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .plans__items {
+        grid-template-columns: 1fr 1fr;    
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .menu-toggle {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+
+    .menu-toggle input
+    {
+        display: block;
+    }
+
+    .menu-toggle span
+    {
+        display: block;
+    }
+
+    .header__menu-icon svg {
+        width: 30px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header, .start {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .plans__items, .plans__title {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .features__items {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .contacts {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .features__items {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .start {
+        flex-flow: column nowrap;
+    }
+
+    .start__block {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .plans__items {
+        grid-template-columns: 1fr;    
+    }
+
+    .features__items {
+        grid-template-columns: 1fr;
+    }
+
+    .contacts {
+        padding: 50px;
+    }
+
+    .contacts__items {
+        min-width: none;
+        flex-flow: column nowrap;
+    }
+
+    .contacts__info {
+        margin-top: 25px;
+    }
+
+    .contacts__item {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .top {
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header, .start {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .plans__items, .plans__title {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .features__items {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
